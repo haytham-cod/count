@@ -9,6 +9,8 @@ The application is implemented as a single, self-contained HTML file written in
 vanilla JavaScript, with no frameworks, build tooling, or external package
 dependencies.
 
+**Live application: https://count.menoon.org**
+
 ## Contents
 
 - [Overview](#overview)
@@ -16,7 +18,7 @@ dependencies.
 - [Technical Implementation](#technical-implementation)
 - [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
-- [Running the Project](#running-the-project)
+- [Live Application](#live-application)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
 
@@ -248,22 +250,11 @@ count/
 The `index.html` file is fully self-contained; no additional files are required
 for the application to run.
 
-## Running the Project
+## Live Application
 
-Clone the repository and open the application:
-
-```
-git clone https://github.com/haytham-cod/count.git
-cd count
-```
-
-Open `index.html` in any modern web browser.
-
-For full functionality — authentication, cloud synchronization, payments, and
-the AI coach — the application must be served from a domain registered with
-GammalTech. When that backend is unavailable, the application runs in a local
-demo mode using browser storage, which is sufficient for reviewing the interface
-and user experience.
+The application is deployed and live at **https://count.menoon.org**. It runs in
+any modern desktop or mobile browser — no installation or setup is required.
+Open the link and sign in to start.
 
 ## Future Improvements
 
